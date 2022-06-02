@@ -13,7 +13,7 @@ const Item = styled(Paper)(({ theme }) => ({
   return (
     <div>
     <Item>{text}</Item>
-    <p>Author : {author}</p>
+    <p>{author}</p>
     </div>
   )
 }
